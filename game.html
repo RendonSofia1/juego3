@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questionario</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="game2.css" />
+
+  </head>
+  <body>
+    <!-- info Box -->
+    <!-- info Box -->
+    <div class="info_box">
+      <div class="info_title"><span>Algunas reglas de este juego</span></div>
+      <div class="info_list">
+          <div class="info">1. Tendras <span>20 segundos</span> por cada pregunta.</div>
+          <div class="info">2. Una vez seleccionada tu respuesta no se puede deshacer.</div>
+          <div class="info">3. No podrás seleccionar una respuesta una vez acabado el tiempo.</div>
+          <div class="info">4. No se puede salir del juego mientras la partida esta en curso.</div>
+          <div class="info">5. Obtendras puntos en base a las respuestas correctas.</div>
+          <div class="info">6. Cada pregunta vale <span>10pts</span>.</div>
+          <div class="info">7. Al acabarse el tiempo la pregunta se toma como incorrecta.</div>
+          <div class="info">8. La partida acaba cuando se selecciona una respuesta incorrecta</div>
+      </div>
+
+      <div class="buttons">
+          <a href="http://localhost/juego_prueba3/" class="btn_info">Salir</a>
+          <button class="restart">Continuar</button>
+      </div>
+  </div>
+
+    <!-- quiz_box -->
+
+    <div class="quiz_box">
+        <header>
+            <div class="title" id="score_title">Puntaje: 0</div>
+            <div class="timer">
+                <div class="timer_text">Tiempo restante</div>
+                <div class="timer_sec">20</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        
+      <section>
+        <div class="que_text">
+        </div>
+        <div class="option_list">
+        </div>
+      </section>
+      <footer>
+        <div class="total_que">
+        </div>
+        <button class="next_btn">Siguiente</button>
+      </footer>
+    </div>
+
+    <script src="http://localhost/juego_prueba3/js/questions.js"></script>
+    <script src="http://localhost/juego_prueba3/js/script.js"></script>
+
+  </body>
+</html>
